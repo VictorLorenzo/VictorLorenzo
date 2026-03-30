@@ -237,7 +237,7 @@ IGDB API (71 entities) → NiFi (OAuth ingestion) → Bronze (71 raw tables)
     height="180"
   />
   <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/top-langs-by-repos?username=VictorLorenzo&theme=github_dark"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VictorLorenzo&theme=github_dark"
     alt="Top Languages"
     height="180"
   />
