@@ -22,7 +22,7 @@
 
 Results-driven Data Engineer with **3+ years of experience** designing, building, and maintaining scalable data pipelines and Big Data platforms. Currently at **Venturus**, where I architected the company's first on-premise Big Data platform — now serving as the foundation for all data projects.
 
-I'm a core contributor to **"Tipyti"**, an internal PySpark-based ingestion framework adopted across multiple production projects, and I've built **10+ production-grade pipelines** for telecommunications datasets. Experienced in both **on-premise** (Kubernetes, Spark, Kafka) and **cloud-native** (AWS EMR, Glue, Athena, Lake Formation) architectures.
+I've built **10+ production-grade pipelines** for telecommunications datasets. Experienced in both **on-premise** (Kubernetes, Spark, Kafka) and **cloud-native** (AWS EMR, Glue, Athena, Lake Formation) architectures.
 
 Beyond engineering, I'm passionate about growing teams — I've **mentored 4 data engineers** and launched Venturus's inaugural internal data event to promote a data-driven culture.
 
