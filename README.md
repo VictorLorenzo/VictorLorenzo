@@ -33,14 +33,9 @@ Beyond engineering, I'm passionate about growing teams — I've **mentored 4 dat
 <div align="center">
 
 ### Data Engineering
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python" alt="Python" width="48" height="48"/>
-  <img src="https://cdn.simpleicons.org/apachespark/E25A1C" alt="Spark" width="48" height="48"/>
-  <img src="https://cdn.simpleicons.org/apacheairflow/017CEE" alt="Airflow" width="48" height="48"/>
-  <img src="https://cdn.simpleicons.org/apachekafka/white" alt="Kafka" width="48" height="48"/>
-  <img src="https://cdn.simpleicons.org/apache/D22128" alt="NiFi" width="48" height="48"/>
-  <img src="https://cdn.simpleicons.org/apachehive/FDEE21" alt="Hive" width="48" height="48"/>
-</div>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python" alt="Python" width="48" height="48" />&nbsp;<img src="https://cdn.simpleicons.org/apachespark/E25A1C" alt="Spark" width="48" height="48" />&nbsp;<img src="https://cdn.simpleicons.org/apacheairflow/017CEE" alt="Airflow" width="48" height="48" />&nbsp;<img src="https://cdn.simpleicons.org/apachekafka/white" alt="Kafka" width="48" height="48" />&nbsp;<img src="https://cdn.simpleicons.org/apachenifi/FF6C37" alt="NiFi" width="48" height="48" />&nbsp;<img src="https://cdn.simpleicons.org/apachehive/FDEE21" alt="Hive" width="48" height="48" />
+</p>
 <p>
   <code>PySpark</code>
   <code>Airflow</code>
