@@ -1,4 +1,3 @@
-<!-- Banner -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1e2e,100:1f6feb&height=180&section=header&text=Victor%20Lorenzo&fontSize=40&fontColor=ffffff" alt="banner" />
 </p>
@@ -47,9 +46,9 @@ Beyond engineering, I'm passionate about growing teams — I've **mentored 4 dat
 </p>
 
 ### Cloud (AWS)
-<p>
-  <img src="https://skillicons.dev/icons?i=aws" alt="AWS" width="48" height="48"/>
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=aws" alt="AWS" width="48" />
+</div>
 <p>
   <code>EMR</code>
   <code>Glue</code>
@@ -64,13 +63,9 @@ Beyond engineering, I'm passionate about growing teams — I've **mentored 4 dat
 </p>
 
 ### Storage & Databases
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=elasticsearch" alt="Elasticsearch" width="48" height="48"/>
-  <img src="https://cdn.simpleicons.org/minio/C72E49" alt="MinIO" width="48" height="48"/>
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=postgres" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=mongodb" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=mysql" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=elasticsearch" width="48" />&nbsp;<img src="https://cdn.simpleicons.org/minio/C72E49" width="48" />
+</div>
 <p>
   <code>PostgreSQL</code>
   <code>Oracle</code>
@@ -81,13 +76,9 @@ Beyond engineering, I'm passionate about growing teams — I've **mentored 4 dat
 </p>
 
 ### Infrastructure & DevOps
-<p>
-  <img src="https://skillicons.dev/icons?i=kubernetes" alt="Kubernetes" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=docker" alt="Docker" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="48" height="48"/>
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=kubernetes" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=docker" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=linux" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=git" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=github" width="48" />
+</div>
 <p>
   <code>Kubernetes</code>
   <code>Docker</code>
@@ -97,15 +88,9 @@ Beyond engineering, I'm passionate about growing teams — I've **mentored 4 dat
 </p>
 
 ### Also worked with
-<p>
-  <img src="https://skillicons.dev/icons?i=cs" alt="C#" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=dotnet" alt=".NET" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=flask" alt="Flask" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=django" alt="Django" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=react" alt="React Native" width="48" height="48"/>
-  <img src="https://skillicons.dev/icons?i=angular" alt="Angular" width="48" height="48"/>
-</p>
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=cs" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=dotnet" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=flask" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=fastapi" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=django" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=react" width="48" />&nbsp;<img src="https://skillicons.dev/icons?i=angular" width="48" />
+</div>
 <p>
   <code>C# .NET</code>
   <code>Flask</code>
@@ -193,67 +178,4 @@ A reusable **PySpark ETL framework** implementing Delta Lake with Medallion Arch
 
 ### 🎮 [`igdb-pipeline`](https://github.com/VictorLorenzo/igdb-pipeline) — Game Analytics Pipeline
 
-End-to-end pipeline extracting **71 entities** from the IGDB API, processing them through the full medallion architecture, and serving **10 analytics-ready gold tables**.
-
-```
-IGDB API (71 entities) → NiFi (OAuth ingestion) → Bronze (71 raw tables)
-    → Spark/Delta Lake → Silver (71 cleaned tables)
-        → Gold (10 analytics tables) → Metabase Dashboards
-```
-
-**Gold tables:** `game_catalog_enriched` · `company_scorecard` · `engine_adoption_trends` · `genre_popularity_analysis` · `platform_market_share` · `release_timeline` · `franchise_performance` · `multiplayer_insights` · `localization_coverage` · `game_content_scoring`
-
-**Orchestrated by** Airflow | **Governed by** Unity Catalog | **Stored in** MinIO (Delta Lake)
-
----
-
-## 📂 Other Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| 🟢 [`Minecraft-Server`](https://github.com/VictorLorenzo/Minecraft-Server) | Containerized Minecraft server setup — vanilla & modded, cloud-ready (AWS ECS) | Docker, Java |
-| ♻️ [`RecycleeProjectMobile`](https://github.com/VictorLorenzo/RecycleeProjectMobile) | Mobile app exploring electronic waste impacts and sustainability | Java |
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=VictorLorenzo&theme=github_dark"
-    alt="Victor GitHub Profile Details"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=VictorLorenzo&theme=github_dark"
-    alt="GitHub Stats"
-    height="180"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=VictorLorenzo&theme=github_dark"
-    alt="Top Languages"
-    height="180"
-  />
-</p>
-
----
-
-## 🌐 Let's Connect!
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/victor-lorenzo-aa7a14165/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:victor2003lorenzo@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/VictorLorenzo" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1e2e,100:1f6feb&height=100&section=footer" />
-</p>
+End-to-end pipeline extracting **71 entities** from the IGDB API (which involves managing approximately 213 endpoint listeners), processing them through the full medallion architecture, and serving **10 analytics-ready gold tables**.
